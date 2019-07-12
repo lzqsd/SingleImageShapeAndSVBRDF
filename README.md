@@ -6,4 +6,5 @@ This is the official code release of paper [Learning to Reconstruct Shape and Sp
 ```
 python testReal.py --cuda 
 ```
-The input images has been included in folder `real`. Their names have been listed in file `imList.txt`. The results will be by default saved in folder `output`. Definition of output is as follows. 
+The input images has been included in folder `real`. Their names have been listed in file `imList.txt`, which will be loaded when running `testReal.py`. The results will be by default saved in folder `output`. Definition of output is as follows
+*`nalbedo_m.png`
