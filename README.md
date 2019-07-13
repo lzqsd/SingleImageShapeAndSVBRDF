@@ -91,7 +91,7 @@ We also include codes to get some other results in the paper. To count the energ
 ```
 python multiBounceDistribution.py 
 ```
-To verify that render data with global illumination is important for the shape and SVBRDF reconstruction performance, run 
+To verify that rendering data with global illumination can improve shape and SVBRDF reconstruction performance, run 
 ```
 python trainInit.py --cuda --inputMode 1
 python testInit.py --cuda --inputMode 1
