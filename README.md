@@ -86,7 +86,7 @@ python test.py --cuda
 ```
 which should you give your same performance as you tested each level of cascade separately. 
 
-## Other code
+## Other codes
 We also include codes to get some other results in the paper. To count the energy distribution of the first, second and third bounce (Fig 3 in the paper), run 
 ```
 python multiBounceDistribution.py 
