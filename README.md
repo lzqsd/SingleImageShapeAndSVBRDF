@@ -26,9 +26,14 @@ python test.py --cuda
 ```
 The testing errors will be saved in the folder `test_render2_refine1_cascade2` and painted on the screen. We have corrected a bug when rendering the second bounce image. Therefore the testing errors are slightly different from the number in the paper, which are summarized as follows.  
 
-|      |Albedo0|Albedo1|Albedo2|Normal0|Normal1|Normal2|Roughness0|Roughness1|Roughness2|Depth0|Depth1|Depth2|
-| ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |    ---   |    ---   |    ---   | ---  | ---  | ---  |
-|New   | 5.649 | 5.116 | 4.843 | 4.513 | 3.898 | 3.815 |  2.061   |   2.007  |   1.938  |1.865 |1.620 |1.501 | 
-|Origin| 5.670 | 5.132 | 4.868 | 4.580 | 3.907 | 3.822 |  2.064   |   2.011  |   1.943  |1.871 |1.624 |1.505 |
+|      |Albedo0|Albedo1|Albedo2|Normal0|Normal1|Normal2|
+| ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |
+|New   | 5.649 | 5.116 | 4.843 | 4.513 | 3.898 | 3.815 |
+|Origin| 5.670 | 5.132 | 4.868 | 4.580 | 3.907 | 3.822 |
+
+|      |Roughness0|Roughness1|Roughness2|Depth0|Depth1|Depth2|
+| ---  |    ---   |    ---   |    ---   | ---  | ---  | ---  |
+|New   |  2.061   |   2.007  |   1.938  |1.865 |1.620 |1.501 | 
+|Origin|  2.064   |   2.011  |   1.943  |1.871 |1.624 |1.505 |
 
 ## Train
