@@ -46,6 +46,10 @@ In the following, we also report the L2 errors of predicted environment lighting
 |-------|-------|-------|-------|-------|-------|
 |6.04x10<sup>-4</sup>|5.39x10<sup>-4</sup>|4.75x10<sup>-4</sup>|7.915x10<sup>-3</sup>|7.502<sup>-3</sup>|6.995x10<sup>-3</sup>|
 
-
-
 ## Train
+In our paper, we train three levels of cascade network separately. Once we finish training one level of cascade, we will output the intermediate predictions and use that for the next level of predictions. To begin with, we first train the network for global illumination prediction. 
+```
+python trainGlobalIllumination.py --cuda
+```
+The trained model will be saved in `check_globalillumination`. 
+
