@@ -41,6 +41,7 @@ The testing errors will be saved in the folder `test_render2_refine1_cascade2` a
 |Origin|6.4x10<sup>-5</sup>|5.9x10<sup>-5</sup>|5.8x10<sup>-5</sup>||||
 
 In the following, we also report the L2 errors of predicted environment lighting (`Envmap_(m)`) and the image rendered with predicted environment lighting (`Bounce1Env_(m)`) and the predicted shape and SVBRDF, which are not included in the paper. 
+
 |Envmap_0|Envmap_1|Envmap_2|Bounce1Env_0|Bounce1Env_1|Normal_2|
 |-------|-------|-------|-------|-------|-------|
 
