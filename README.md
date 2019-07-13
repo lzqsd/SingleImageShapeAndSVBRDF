@@ -20,5 +20,6 @@ The input images are included in folder `real`. Their names are listed in file `
 * `(n)mask.png`: Segmentation mask. 
 
 ## Test
+To test the pretrained mode, first download the dataset from the [link](http://cseweb.ucsd.edu/~viscomp/projects/SIGA18ShapeSVBRDF).
 
 ## Train
