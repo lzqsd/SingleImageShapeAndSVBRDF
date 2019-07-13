@@ -80,3 +80,7 @@ and the third level by running
 python trainCascadeEnv_step.py --cuda --cascadeLevel 2 --nepoch 6
 python testCascadeEnv_step.py --cuda --cascadeLevel 2 --epochId 5
 ```
+After that, you should be able to test all three levels of cascade network together by running 
+```
+python test.py --cuda
+```
