@@ -61,6 +61,12 @@ python trainInitEnv.py --cuda
 ```
 The trained model will be saved in `check_initEnvGlob_cascade0`. To test the results, run 
 ```
-
+python testInitEnv.py --cuda
 ```
+Then output the intermediate predictions by running 
+```
+python outputInitEnv.py --cuda --dataRoot ../Data/train 
+python outputInitEnv.py --cuda --dataRoot ../Data/test
+```
+
 
