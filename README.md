@@ -84,3 +84,4 @@ After that, you should be able to test all three levels of cascade network toget
 ```
 python test.py --cuda
 ```
+which should you give your same performance as you tested each level of cascade separately. 
