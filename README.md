@@ -16,6 +16,8 @@ The input images are included in folder `real`. Their names are listed in file `
 * `(n)renderedBounce2_(m).png`: Second bounce image predicted by global illumination network. 
 * `(n)renderedBounce3_(m).png`: Third bounce image predicted by global illumination network.
 * `(n)renderedEnv_(m).png`: Image rendered using predicted environment lighting, shape and SVBRDF. 
+* `(n)input.png`: Input image. 
+* `(n)mask.png`: Segmentation mask. 
 
 ## Test
 
