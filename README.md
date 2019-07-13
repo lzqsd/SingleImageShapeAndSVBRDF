@@ -68,5 +68,15 @@ Then output the intermediate predictions by running
 python outputInitEnv.py --cuda --dataRoot ../Data/train 
 python outputInitEnv.py --cuda --dataRoot ../Data/test
 ```
-
-
+You can train the second level of cascade network in a similar way by running
+```
+python trainCascadeEnv_step.py --cuda --cascadeLevel 1 --nepoch 8
+python testCascadeEnv_step.py --cuda --cascadeLevel 1 --epochId 7
+python outputCascadeEnv_step.py --cuda --cascadeLevel 1 --epochId 7 --dataRoot ../Data/train
+python outputCascadeEnv_step.py --cuda --cascadeLevel 1 --epochId 7 --dataRoot ../Data/test
+```
+and the third level by running 
+```
+python trainCascadeEnv_step.py --cuda --cascadeLevel 2 --nepoch 6
+python testCascadeEnv_step.py --cuda --cascadeLevel 2 --epochId 5
+```
