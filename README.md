@@ -40,10 +40,12 @@ The testing errors will be saved in the folder `test_render2_refine1_cascade2` a
 |New|6.5x10<sup>-5</sup>|5.9x10<sup>-5</sup>|5.8x10<sup>-5</sup>||||
 |Origin|6.4x10<sup>-5</sup>|5.9x10<sup>-5</sup>|5.8x10<sup>-5</sup>||||
 
-In the following, we also report the L2 errors of predicted environment lighting (`Envmap_(m)`) and the image rendered with predicted environment lighting (`Bounce1Env_(m)`) and the predicted shape and SVBRDF.
+In the following, we also report the L2 errors of predicted environment lighting (`Envmap_(m)`) and the image rendered with predicted environment lighting and the predicted shape and SVBRDF  (`Bounce1Env_(m)`).
 
-|Envmap_0|Envmap_1|Envmap_2|Bounce1Env_0|Bounce1Env_1|Normal_2|
+|Envmap_0|Envmap_1|Envmap_2|Bounce1Env_0|Bounce1Env_1|Bounce1Env_2|
 |-------|-------|-------|-------|-------|-------|
+|6.04x10<sup>-4</sup>|5.39x10<sup>-4</sup>|4.75x10<sup>-4</sup>|7.915x10<sup>-3</sup>|7.502<sup>-3</sup>|6.995x10<sup>-3</sup>|
+
 
 
 ## Train
