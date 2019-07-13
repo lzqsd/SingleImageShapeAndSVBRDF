@@ -24,7 +24,7 @@ To test the pretrained mode, first download the full dataset from the [link](htt
 ```
 python test.py --cuda 
 ```
-The testing errors will be saved in the folder `test_render2_refine1_cascade2` and painted on the screen. We have corrected a bug when rendering the second bounce image. Therefore the testing errors are slightly different from the number in the paper, which are summarized as follows. The error of predicted second bounce is much smaller (`Bounce2_(m)`). 
+The testing errors will be saved in the folder `test_render2_refine1_cascade2` and painted on the screen. We have corrected a bug when rendering the second bounce image. Therefore the testing errors are slightly different from the number in the paper, which are summarized as follows. The error of predicted second bounce is smaller (`Bounce2_(m)`). 
 
 |      |Albedo_0|Albedo_1|Albedo_2|Normal_0|Normal_1|Normal_2|
 |------|-------|-------|-------|-------|-------|-------|
