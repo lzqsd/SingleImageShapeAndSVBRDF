@@ -12,10 +12,10 @@ The input images are included in folder `real`. Their names are listed in file `
 * `(n)rough_(m).png`: Roughness prediction.
 * `(n)depth_(m).png/hdf5`: `.hdf5` is real depth. `.png` is tranformed depth in range of 0 to 1.  
 * `(n)shCoef_(m).hdf5`: Spherical harmonics coefficents prediction for environment lighting. 
-* `(n)renderedBounce1_(m).png`: First bounce image rendered using predicted shape and SVBRDF after gamma correction. 
-* `(n)renderedBounce2_(m).png`: Second 
-* `(n)renderedBounce3_(m).png`:
-* `(n)renderedEnv_(m).png`:
+* `(n)renderedBounce1_(m).png`: First bounce image rendered using predicted shape and SVBRDF. 
+* `(n)renderedBounce2_(m).png`: Second bounce image predicted by global illumination network. 
+* `(n)renderedBounce3_(m).png`: Third bounce image predicted by global illumination network.
+* `(n)renderedEnv_(m).png`: Image rendered using predicted environment lighting, shape and SVBRDF. 
 
 ## Test
 
