@@ -87,7 +87,18 @@ python test.py --cuda
 which should you give your same performance as you tested each level of cascade separately. 
 
 ## Other code
-We also include other codes to get some other results in the paper. To count the energy distribution of the first, second and third bounce (Fig 3 in the paper), run 
+We also include codes to get some other results in the paper. To count the energy distribution of the first, second and third bounce (Fig 3 in the paper), run 
 ```
 python multiBounceDistribution.py 
 ```
+To verify that render data with global illumination is important for the shape and SVBRDF reconstruction performance, run 
+```
+python trainInit.py --cuda --inputMode 1
+python testInit.py --cuda --inputMode 1
+```
+and 
+```
+python trainInit.py --cuda --inputMode 0
+python testInit.py --cuda --inputMode 0
+```
+The first two lines of code will train and test images rendered with global illumination. The last two lines of code will train the network using images without global illumination and test the network using images with global illumination.  The conclusion is it's worth considering global illumination to get good shape and SVBRDF estimation. 
