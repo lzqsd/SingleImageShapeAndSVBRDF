@@ -37,7 +37,7 @@ The testing errors will be saved in the folder `test_render2_refine1_cascade2` a
 |New|3.309x10<sup>-3</sup>|2.042x10<sup>-3</sup>|1.648x10<sup>-3</sup>|2.65x10<sup>-4</sup>|2.22x10<sup>-4</sup>|2.19x10<sup>-4</sup>|
 |Origin|3.291x10<sup>-3</sup>|2.046x10<sup>-3</sup>|1.637x10<sup>-3</sup>|2.76x10<sup>-4</sup>|2.47x10<sup>-4</sup>|2.45x10<sup>-4</sup>|
 |      |**Bounce3_0**|**Bounce3_1**|**Bounce3_2**| | | |
-|New|6.5<sup>-5</sup>|5.9<sup>-5</sup>|5.8<sup>-5</sup>||||
+|New|6.5x10<sup>-5</sup>|5.9x10<sup>-5</sup>|5.8x10<sup>-5</sup>||||
 |Origin|6.4x10<sup>-5</sup>|5.9x10<sup>-5</sup>|5.8x10<sup>-5</sup>||||
 
 ## Train
