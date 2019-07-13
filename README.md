@@ -20,6 +20,10 @@ The input images are included in folder `real`. Their names are listed in file `
 * `(n)mask.png`: Segmentation mask. 
 
 ## Test
-To test the pretrained mode, first download the dataset from the [link](http://cseweb.ucsd.edu/~viscomp/projects/SIGA18ShapeSVBRDF/Data.zip).
+To test the pretrained mode, first download the full dataset from the [link](http://cseweb.ucsd.edu/~viscomp/projects/SIGA18ShapeSVBRDF/Data.zip), which is around 128GB. Unzip the dataset under the same directory where you save the code. And then run 
+```
+python test.py --cuda 
+```
+The testing error will be saved in the folder `test_cascadeEnvGlob_render2_refine1_cascade2`. The error will also be painted on the screen. 
 
 ## Train
