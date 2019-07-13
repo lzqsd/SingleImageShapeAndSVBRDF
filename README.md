@@ -11,8 +11,8 @@ The input images are included in folder `real`. Their names are listed in file `
 * `(n)normal_(m).png`: Normal prediction.
 * `(n)rough_(m).png`: Roughness prediction.
 * `(n)depth_(m).png/hdf5`: `.hdf5` is real depth. `.png` is tranformed depth in range of 0 to 1.  
-* `(n)shCoef_(m).hdf5`:
-* `(n)renderedBounce1_(m).png`:
+* `(n)shCoef_(m).hdf5`: Spherical harmonics coefficents prediction for environment lighting. 
+* `(n)renderedBounce1_(m).png`: 
 * `(n)renderedBounce2_(m).png`:
 * `(n)renderedBounce3_(m).png`:
 * `(n)renderedEnv_(m).png`:
