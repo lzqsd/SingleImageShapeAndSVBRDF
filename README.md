@@ -24,6 +24,6 @@ To test the pretrained mode, first download the full dataset from the [link](htt
 ```
 python test.py --cuda 
 ```
-The testing error will be saved in the folder `test_render2_refine1_cascade2`. The error will also be painted on the screen. 
+The testing error will be saved in the folder `test_render2_refine1_cascade2` and painted on the screen. 
 
 ## Train
