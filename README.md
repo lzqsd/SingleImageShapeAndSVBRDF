@@ -10,7 +10,7 @@ The input images are included in folder `real`. Their names are listed in file `
 * `(n)albedo_(m).png`: Diffuse albedo prediction without gama correction. 
 * `(n)normal_(m).png`: Normal prediction.
 * `(n)rough_(m).png`: Roughness prediction.
-* `(n)depth_(m).png/hdf5`: Absolute depth prediction is saved in `(n)depth_(m).hdf5`. `(n)depth_(m).png` is the tranformed depth in range of 0 to 1.  
+* `(n)depth_(m).png/hdf5`: `(n)depth_(m).hdf5` is real depth. `(n)depth_(m).png` is tranformed depth in range of 0 to 1.  
 * `(n)shCoef_(m).hdf5`:
 * `(n)renderedBounce1_(m).png`:
 * `(n)renderedBounce2_(m).png`:
