@@ -39,5 +39,6 @@ The testing errors will be saved in the folder `test_render2_refine1_cascade2` a
 |      |**Bounce3_0**|**Bounce3_1**|**Bounce3_2**| | | |
 |New|6.5x10<sup>-5</sup>|5.9x10<sup>-5</sup>|5.8x10<sup>-5</sup>||||
 |Origin|6.4x10<sup>-5</sup>|5.9x10<sup>-5</sup>|5.8x10<sup>-5</sup>||||
+In the following, we also reported the L2 error of predicted environment lighting and the image rendered with predicted environment lighting and the predicted shape and SVBRDF which is not included in the paper. 
 
 ## Train
