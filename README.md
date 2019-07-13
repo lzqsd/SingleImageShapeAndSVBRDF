@@ -101,4 +101,4 @@ and
 python trainInit.py --cuda --inputMode 0
 python testInit.py --cuda --inputMode 0
 ```
-The first two lines of code will train and test images rendered with global illumination. The last two lines of code will train the network using images without global illumination and test the network using images with global illumination.  The conclusion is it's worth considering global illumination to get good shape and SVBRDF estimation. 
+The first two lines of code will train and test images rendered with global illumination. The last two lines of code will train the network using images without global illumination and test the network using images with global illumination.  The conclusion is it's worth considering global illumination to achieve good shape and SVBRDF estimation. 
