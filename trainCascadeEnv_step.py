@@ -30,10 +30,10 @@ parser.add_argument('--normalWeight', type=float, default=1.0, help='the weight 
 parser.add_argument('--roughWeight', type=float, default=0.5, help='the weight for the roughness component')
 parser.add_argument('--depthWeight', type=float, default=0.5, help='the weight for the depth component')
 parser.add_argument('--globalIllu1', type=float, default=1, help='the weight of global illumination prediction 1')
-parser.add_argument('--globalIllu2', type=float, default=0.0, help='the weight of global illumination prediction 2')
-parser.add_argument('--globalIllu3', type=float, default=0.0, help='the weight of global illumination prediction 3')
+parser.add_argument('--globalIllu2', type=float, default=0.01, help='the weight of global illumination prediction 2')
+parser.add_argument('--globalIllu3', type=float, default=0.01, help='the weight of global illumination prediction 3')
 parser.add_argument('--envWeight', type=float, default=0.01, help = 'the weight of training network for environmap prediction')
-parser.add_argument('--imgEnvWeight', type=float, default=0.0, help='the weight of image rendered under environment map')
+parser.add_argument('--imgEnvWeight', type=float, default=0.01, help='the weight of image rendered under environment map')
 # The detail network setting
 parser.add_argument('--cascadeLevel', type=int, default=2, help='cascade level')
 # Refine input mode
