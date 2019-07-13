@@ -28,10 +28,10 @@ The testing errors will be saved in the folder `test_render2_refine1_cascade2` a
 
 |      |Albedo0|Albedo1|Albedo2|Normal0|Normal1|Normal2|
 |------|-------|-------|-------|-------|-------|-------|
-|New   | 5.649x10<sup>-2</sup> | 5.116x10<sup>-2</sup> | 4.843x10<sup>-2</sup> | 4.513x10<sup>-2</sup> | 3.898x10<sup>-2</sup> | 3.815x10<sup>-2</sup> |
-|Origin| 5.670x10<sup>-2</sup> | 5.132x10<sup>-2</sup> | 4.868x10<sup>-2</sup> | 4.580x10<sup>-2</sup> | 3.907x10<sup>-2</sup> | 3.822x10<sup>-2</sup> |
+|New|5.649x10<sup>-2</sup>|5.116x10<sup>-2</sup>|4.843x10<sup>-2</sup>|4.513x10<sup>-2</sup>|3.898x10<sup>-2</sup>|3.815x10<sup>-2</sup>|
+|Origin|5.670x10<sup>-2</sup>|5.132x10<sup>-2</sup>|4.868x10<sup>-2</sup>|4.580x10<sup>-2</sup>|3.907x10<sup>-2</sup>|3.822x10<sup>-2</sup>|
 |      |**Roughness0**|**Roughness1**|**Roughness2**|**Depth0**|**Depth1**|**Depth2**|
-|New   |  2.061   |   2.007  |   1.938  |1.865x10<sup>-2</sup> |1.620x10<sup>-2</sup> |1.501x10<sup>-2</sup> | 
-|Origin|  2.064   |   2.011  |   1.943  |1.871x10<sup>-2</sup> |1.624x10<sup>-2</sup> |1.505x10<sup>-2</sup> |
+|New|2.061x10<sup>-1</sup>|2.0072x10<sup>-1</sup>|1.938x10<sup>-1</sup>|1.865x10<sup>-2</sup>|1.620x10<sup>-2</sup>|1.501x10<sup>-2</sup>| 
+|Origin|2.064x10<sup>-1</sup>|2.011x10<sup>-1</sup>|1.943x10<sup>-1</sup>|1.871x10<sup>-2</sup>|1.624x10<sup>-2</sup>|1.505x10<sup>-2</sup>|
 
 ## Train
