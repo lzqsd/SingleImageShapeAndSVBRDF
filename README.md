@@ -84,7 +84,7 @@ After that, you should be able to test all three levels of cascade network toget
 ```
 python test.py --cuda
 ```
-which should you give your same performance as you tested each level of cascade separately. 
+which should give you the same performance as you tested each level of cascade separately. 
 
 ## Other codes
 We also include codes to get some other results in the paper. To count the energy distribution of the first, second and third bounce (Fig 3 in the paper), run 
